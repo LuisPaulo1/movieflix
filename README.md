@@ -38,6 +38,10 @@ Importar o link no Postman: https://www.getpostman.com/collections/20fe14879b683
 - Na tela de detalhes do filme, abaixo do card de formulário, deve aparecer um outro card com uma listagem de TODAS avaliações daquele filme. Quando um usuário MEMBER informar com sucesso uma nova avaliação, esta listagem deve ser atualizada.
 - As telas listagem de filmes e detalhes do filme devem ser rotas protegidas. Se o usuário não autenticado tentar acessar diretamente essas rotas, ele deve ser redirecionado para a tela de login.
 
+## Usuários para Login
+- Login: ana@gmail.com - Senha: 123456 - Perfil: MEMBER
+- Login: bob@gmail.com - Senha: 123456 - Perfil: VISITOR
+
 # Tecnologias utilizadas
 ## Backend
 - Java
