@@ -39,8 +39,8 @@ Importar o link no Postman: https://www.getpostman.com/collections/20fe14879b683
 - As telas listagem de filmes e detalhes do filme devem ser rotas protegidas. Se o usuário não autenticado tentar acessar diretamente essas rotas, ele deve ser redirecionado para a tela de login.
 
 ## Usuários para Login
-- Login: ana@gmail.com - Senha: 123456 - Perfil: MEMBER
-- Login: bob@gmail.com - Senha: 123456 - Perfil: VISITOR
+- Email: ana@gmail.com - Senha: 123456 - Perfil: MEMBER
+- Email: bob@gmail.com - Senha: 123456 - Perfil: VISITOR
 
 # Tecnologias utilizadas
 ## Backend
