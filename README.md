@@ -71,7 +71,7 @@ git clone https://github.com/LuisPaulo1/movieflix.git
 Pré-requisitos: Java 11
 
 ```bash
-# entrar na pasta do projeto movieflix
+# entrar na pasta do projeto backend
 cd movieflix/backend
 
 # executar o projeto
