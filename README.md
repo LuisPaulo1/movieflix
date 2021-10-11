@@ -19,7 +19,7 @@ O sistema MovieFlix consiste em um banco de filmes, os quais podem ser listados 
 ## Collection do Postman
 Importar o link no Postman: https://www.getpostman.com/collections/20fe14879b6838df13ca
 
-## Variáveis de ambiente utilizado no postman
+## Variáveis de ambiente utilizadas no postman
 ![Postman](https://github.com/LuisPaulo1/assets/blob/master/movieflix/vari%C3%A1veis-ambiente.png)
 
 ## Modelo conceitual
