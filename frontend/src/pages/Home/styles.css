@@ -1,0 +1,55 @@
+.login-container {
+    padding: 16px 10px;
+}
+
+.info-card {
+    display: none;
+}
+
+@media(min-width: 576px) {
+    .login-container {
+        padding: 40px 46px;
+    }
+}
+
+@media(min-width: 768px) {
+    .login-container {
+        padding: 40px 150px;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .login-container {
+        display: flex; 
+        justify-content: space-around;            
+        align-items: center;
+    }
+    
+    .info-card {        
+        display: flex;
+        flex-direction: column;                              
+    }      
+
+    .info-card h1 {
+        font-size: 48px;
+        line-height: 65px;
+        letter-spacing: -0.015em;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        margin-bottom: 20px;
+        margin-left: 25px;        
+    }
+     .info-card p {
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.015em;
+        color: #F2F2F2;
+        margin-left: 25px;        
+    }
+
+    .login-image {
+        margin-top: 35px;                
+    }
+}
