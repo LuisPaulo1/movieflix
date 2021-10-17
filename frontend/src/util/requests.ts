@@ -33,7 +33,7 @@ export const requestBackendLogin = (loginData: LoginData) => {
   });
 };
 
-export const requestBackend = (config: AxiosRequestConfig, data?: any) => {
+export const requestBackend = (config: AxiosRequestConfig) => {
   const headers = config.withCredentials
     ? {
         ...config.headers,
@@ -41,7 +41,7 @@ export const requestBackend = (config: AxiosRequestConfig, data?: any) => {
       }
     : config.headers;
 
-  return axios({ ...config, baseURL: BASE_URL, data, headers });
+  return axios({ ...config, baseURL: BASE_URL, headers });
 };
 
 // Add a request interceptor

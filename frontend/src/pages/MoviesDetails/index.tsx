@@ -45,10 +45,11 @@ const MoviesDetails = () => {
         const params: AxiosRequestConfig = {
             method: 'POST',
             url: '/reviews',
+            data: review,
             withCredentials: true
         }
 
-        requestBackend(params, review).then(() => {
+        requestBackend(params).then(() => {
             setReview(1)     
             setValue("text", "");                                       
         });
