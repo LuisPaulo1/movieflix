@@ -1,31 +1,74 @@
 .bg-container {
-    padding: 15px 10px;    
+    padding: 20px 10px;
+    
 }
 
-h2 {
+.detail-img img {
+    width: 260px;
+    margin-bottom: 16px;
+}
+
+.detail-info h2 {
     font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 27px;
     letter-spacing: -0.015em;
     color: #FFFFFF;
     mix-blend-mode: normal;
-    margin-top: 10px;
-    margin-bottom: 10px;   
-    padding-right: 40px; 
+    margin-bottom: 0px;
 }
 
-.container-form, .container-result {
-    background: #6C6C6C;
+.detail-info h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #FFC700;
+    mix-blend-mode: normal;
+    margin-bottom: 0px;
+}
+
+.detail-info span {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-bottom: 0px;
+}
+
+.detail-info p {
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: -0.015em;
+    color: #9E9E9E;
+}
+
+.container-detail-movie, .container-form, .container-result {
+    background-color: #6C6C6C;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
+    border-radius: 10px;
+    padding: 20px;
     margin-bottom: 20px;
+}
+
+.container-form, .container-result {  
+    border-radius: 4px;  
     padding: 20px 10px;
 }
 
 .container-form form {
-    display: flex;    
+    display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .container-form input {
@@ -43,10 +86,10 @@ h2 {
     margin-bottom: 15px;
 }
 
-.container-form button {    
+.container-form button {
     font-weight: 900;
     font-size: 16px;
-    line-height: 22px;  
+    line-height: 22px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -0.015em;
@@ -54,39 +97,37 @@ h2 {
     mix-blend-mode: normal;
     background: #FFC700;
     border: 1px solid #FFC700;
-    border-radius: 4px;    
+    border-radius: 4px;
     padding: 16px 20px;
 }
 
-@media(min-width: 1200px) {
+.container-result { 
+    margin-bottom: 0px;    
+}
 
+@media(min-width: 1200px) {
     .bg-container {
         padding: 35px;
     }
-
     h2 {
         font-size: 48px;
         line-height: 65px;
         margin-bottom: 20px;
     }
-
     .container-form form {
-        align-items: center;    
+        align-items: center;
         padding-left: 10px;
-        padding-right: 20px;        
+        padding-right: 20px;
     }
-
     .container-form input {
-        width: 100%;       
+        width: 100%;
     }
-
     .container-form button {
         font-size: 20px;
-        line-height: 27px; 
+        line-height: 27px;
         padding: 8px 70px;
     }
-
     .container-result {
-        margin-top: 30px;            
+        margin-top: 30px;
     }
 }

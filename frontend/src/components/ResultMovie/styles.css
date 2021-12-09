@@ -1,0 +1,42 @@
+.result-movie-container {
+    background-color: #6C6C6C;
+}
+
+.movie-img img {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.movie-info {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 45px;
+}
+
+.movie-info h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-bottom: 0px;
+}
+
+.movie-info h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #FFC700;
+    mix-blend-mode: normal;
+    margin-bottom: 0px;
+}
+
+.movie-info span {
+    font-size: 14px;
+    line-height: 19px;    
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    mix-blend-mode: normal;    
+}

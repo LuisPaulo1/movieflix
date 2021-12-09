@@ -1,0 +1,23 @@
+.movie-filter-genre-container {
+    background: #6C6C6C;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.select-container {
+    padding: 5px 20px;
+}
+
+.genre-filter-select__control {
+    background: #6C6C6C !important;
+    border: 1px solid #E1E1E1;       
+}
+
+.genre-filter-select__placeholder {
+    color: #FFF !important;
+}
+
+.genre-filter-select__indicator-separator {
+    display: none;
+}
