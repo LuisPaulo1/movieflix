@@ -18,6 +18,12 @@
     }
 }
 
+@media(min-width: 768px) {
+    .login-container {
+       padding: 45px 152px;
+    }    
+}
+
 @media(min-width: 1200px) {
 
     .login-container {

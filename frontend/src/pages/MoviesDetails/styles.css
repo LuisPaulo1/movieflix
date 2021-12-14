@@ -1,6 +1,5 @@
 .bg-container {
     padding: 20px 10px;
-    
 }
 
 .detail-img img {
@@ -60,15 +59,21 @@
     margin-bottom: 20px;
 }
 
-.container-form, .container-result {  
-    border-radius: 4px;  
+.container-form, .container-result {
+    border-radius: 4px;
     padding: 20px 10px;
 }
 
 .container-form form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     justify-content: center;
+}
+
+.container-detail-movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-form input {
@@ -101,32 +106,108 @@
     padding: 16px 20px;
 }
 
-.container-result { 
-    margin-bottom: 0px;    
+.container-result {
+    margin-bottom: 0px;
+}
+
+@media(min-width: 576px) {
+    
+    .detail-img img {
+        width: 496px;
+    }
+
+    .container-detail-movie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-form, .container-result {
+        padding: 20px 20px;
+    }
+
+    .container-form button {
+        padding: 10px 20px;
+    }
+
+    .container-result {
+        padding-bottom: 2px;
+    }
+
+}
+
+@media(min-width: 768px) {
+
+    .bg-container {
+        padding: 40px;
+    }
+    
+    .detail-img img {
+        padding: 10px 20px;
+        width: 640px;
+    }
+
+    .detail-info {
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+
+    .detail-info h2 {        
+        font-size: 36px;
+        line-height: 49px;
+    }
+    
+    .detail-info h4 {        
+        font-size: 24px;
+        line-height: 33px;        
+    }
+    
+    .detail-info span {
+        font-size: 24px;
+        line-height: 33px;        
+    }
+
+    .detail-info p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .container-detail-movie, .container-form {        
+        margin-bottom: 40px;
+    }
+
+    .container-form, .container-result {
+        padding: 40px;        
+    }    
 }
 
 @media(min-width: 1200px) {
     .bg-container {
         padding: 35px;
     }
+
     h2 {
         font-size: 48px;
         line-height: 65px;
         margin-bottom: 20px;
     }
+
     .container-form form {
         align-items: center;
         padding-left: 10px;
         padding-right: 20px;
     }
+
     .container-form input {
         width: 100%;
     }
+
     .container-form button {
         font-size: 20px;
         line-height: 27px;
         padding: 8px 70px;
     }
+
     .container-result {
         margin-top: 30px;
     }

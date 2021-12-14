@@ -6,7 +6,7 @@
 }
 
 .select-container {
-    padding: 5px 20px;
+    padding: 5px 20px;    
 }
 
 .genre-filter-select__control {
@@ -20,4 +20,25 @@
 
 .genre-filter-select__indicator-separator {
     display: none;
+}
+
+@media(min-width: 576px) {
+    
+    .movie-filter-genre-container {
+        display: flex;        
+    }
+
+    .genre-filter-select__input-container {
+        padding-right: 156px;        
+    }
+    
+    .genre-filter-select__placeholder {
+        padding-right: 140px;            
+    }
+}
+
+@media(min-width: 768px) { 
+    .movie-filter-genre-container {
+        margin-left: 20px;
+    }
 }

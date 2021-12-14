@@ -16,19 +16,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 4px;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 
-.pagination-item.active {
+.pagination-item.active {    
     background-color: #FFC700;
 }
 
 .pagination-link-active {
     color: #FFF !important;
-    background-color: #FFC700;
+    background-color: #FFC700;    
 }
 
-.arrow-previous {
+.arrow-previous {    
     transform: rotate(-180deg);
     color: #FFC700;
 }
@@ -38,15 +39,20 @@
     color: #FFC700;
 }
 
-.arrow-inactive {
+.arrow-inactive {    
     color: #9E9E9E;
 }
 
-.arrow-active {
+.arrow-active {    
     color: #FFC700;
 }
 
 .pagination-arrow-container {
     display: flex;
     align-items: center;
+}
+
+@media(min-width: 768px) { 
+    .pagination-item.active {
+    }   
 }

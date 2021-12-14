@@ -58,7 +58,9 @@ const Movies = () => {
 
     return (
         <div className="movie-container">
+            
             <MovieFilter onSubmitFilter={handleSubmitFilter} />
+
             <div className="row">
                 {
                     page?.content.map((moviesGenre) => (
