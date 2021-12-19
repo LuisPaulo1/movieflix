@@ -37,8 +37,15 @@
     }
 }
 
-@media(min-width: 768px) { 
+@media(min-width: 768px) {
     .movie-filter-genre-container {
         margin-left: 20px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .movie-filter-genre-container {
+        margin-left: 5px;
+        padding: 10px 0px;
     }
 }

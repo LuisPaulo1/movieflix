@@ -44,26 +44,16 @@
     mix-blend-mode: normal;    
 }
 
-@media(min-width: 576px) {
-    .movie-img img {
-        width: 248px;
-    }
-
+@media(min-width: 768px) {
     .result-movie-container {
-        height: 285px;       
+        margin-top: 20px; 
+        margin-left: 20px;   
     }
 }
 
-@media(min-width: 768px) {
-
-    .movie-img img {
-        width: 100%;
+@media(min-width: 1200px) {
+    .result-movie-container {
+        margin-top: 15px; 
+        margin-left: 5px;   
     }
-
-    .result-movie-container {         
-        margin-top: 20px;
-        margin-left: 20px;        
-        height: 325px;               
-    }
-    
 }

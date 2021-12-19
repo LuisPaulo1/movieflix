@@ -50,10 +50,20 @@
 
 @media(min-width: 1200px) {
     .nav-logo-text h4 {
-        margin-left: 40px; 
+        margin-left: 25px; 
     }
 
     .main-nav button {
-        margin-right: 30px;
+        margin-right: 42px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .nav-logo-text h4 {
+        margin-left: 135px; 
+    }
+
+    .main-nav button {
+        margin-right: 145px;
     }
 }

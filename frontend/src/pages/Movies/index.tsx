@@ -64,7 +64,7 @@ const Movies = () => {
             <div className="row">
                 {
                     page?.content.map((moviesGenre) => (
-                        <div className="col-sm-6 col-lg-4 col-xl-3" key={moviesGenre.id}>
+                        <div className="col-sm-6 col-xl-3" key={moviesGenre.id}>
                             <Link to={`/movies/${moviesGenre.id}`}>
                                 <ResultMovie movie={moviesGenre} />
                             </Link>
@@ -72,7 +72,9 @@ const Movies = () => {
                     ))
                 }
             </div>
+            
             <Pagination forcePage={page?.number} pageCount={(page) ? page.totalPages : 0} range={3} onChange={handlePageChange} />
+
         </div>
     )
 }

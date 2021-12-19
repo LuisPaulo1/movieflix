@@ -108,8 +108,10 @@ const MoviesDetails = () => {
                             name="movieId"
                             className="d-none"
                             value={movieId}
-                        />
-                        <button>Salvar avaliação</button>
+                        /> 
+                        <div className="botao">
+                            <button>Salvar avaliação</button>                        
+                        </div>                       
                     </form>
                 </div>
             }
