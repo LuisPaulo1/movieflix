@@ -8,6 +8,7 @@ import { MovieReviews } from 'types/movieReviews';
 import { MovieDetails } from 'types/movieDetails';
 import { Review } from 'types/review';
 import { hasAnyRoles } from 'util/auth';
+import { toast } from 'react-toastify';
 
 import './styles.css';
 
@@ -69,6 +70,9 @@ const MoviesDetails = () => {
         requestBackend(params).then(() => {
             setReview(1)
             setValue("text", "");
+            toast.info('Avaliação cadastrada com sucesso');
+        }).catch(e => {
+            toast.error('Erro ao cadastrar uma avaliação');
         });
     }
 
