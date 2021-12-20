@@ -56,7 +56,7 @@ Importar o link no Postman: https://www.getpostman.com/collections/20fe14879b683
 - JPA / Hibernate
 - Maven
 - Banco de dados H2
-- JUnit 5 (Teste de Integração)
+- JUnit 5
 
 ## Frontend
 - HTML / CSS / JS / TypeScript
