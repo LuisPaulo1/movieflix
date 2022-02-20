@@ -52,7 +52,7 @@ Importar o link no Postman: https://www.getpostman.com/collections/20fe14879b683
 # Tecnologias utilizadas
 ## Backend
 - Java
-- Spring (boot, web, data, security)
+- Spring (boot, web, data, Validation, security)
 - JPA / Hibernate
 - Maven
 - Banco de dados H2
